@@ -41,7 +41,7 @@ struct Node* insert(int arr[], struct Node* root, int i, int n) {
     if (node == NULL)
         return;
 
-    printf("%d ", node->data);
+    printf(" %d", node->data);
     preOrder(node->kiri);
     preOrder(node->kanan);
 
@@ -54,7 +54,7 @@ void postOrder(struct Node *node)
 
     postOrder(node->kiri);
     postOrder(node->kanan);
-    printf("%d ", node->data);
+    printf(" %d", node->data);
 }
 
 void inOrder(struct Node* node) {
@@ -62,7 +62,7 @@ void inOrder(struct Node* node) {
         return;
         
     inOrder(node->kiri); 
-    printf("%d ", node->data); 
+    printf(" %d", node->data); 
     inOrder(node->kanan);
 }
 
@@ -78,11 +78,11 @@ int main() {
 
     struct Node* root = insert(arr,NULL,0,N);
 
-    printf("PRE: "); 
+    printf("PRE"); 
     preOrder(root); printf("\n");
-    printf("IN: "); 
+    printf("IN"); 
     inOrder(root); printf("\n");
-    printf("POST: "); 
+    printf("POST"); 
     postOrder(root); printf("\n");
 
     return 0;
