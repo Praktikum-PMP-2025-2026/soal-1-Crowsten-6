@@ -2,8 +2,11 @@
  *   Modul               : 5 – Foundation of Algorithm
  *   Hari dan Tanggal    : Selasa 12 Mei 2026
  *   Nama (NIM)          : Jonathan Chandra (13224103)
- *   Nama File           : Soal2.c
- *   Deskripsi           :  Penggabungan Dua Jalur Terurut
+ *   Nama File           : Soal1.c
+ *   Deskripsi           : Analisis silsilah keluarga dengan 3 cara
+ *  cara 1 : dari akar (pre order)
+ *  cara 2 : dari cabang kiri ke tengah lalu kanan (in order)
+ *  cara 3 : dari anak anak terlebih dahulu (post order)
  * 
  */
 
