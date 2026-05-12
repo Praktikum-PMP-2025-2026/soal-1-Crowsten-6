@@ -78,11 +78,11 @@ int main() {
 
     struct Node* root = insert(arr,NULL,0,N);
 
-    printf("PRE"); 
+    printf("PRE "); 
     preOrder(root); printf("\n");
-    printf("IN"); 
+    printf("IN "); 
     inOrder(root); printf("\n");
-    printf("POST"); 
+    printf("POST "); 
     postOrder(root); printf("\n");
 
     return 0;
